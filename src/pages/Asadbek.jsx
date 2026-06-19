@@ -4,6 +4,7 @@ const Asadbek = () => {
   return (
     <div>
       <h1>Asadbek</h1>
+      <p>Bu branch o'zgartirildi</p>
     </div>
   );
 };
