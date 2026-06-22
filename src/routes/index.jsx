@@ -4,6 +4,7 @@ import Asadbek from "../pages/Asadbek";
 import Odiljon from "../pages/Odiljon";
 import Salohiddin from "../pages/Salohiddin";
 import Orifjon from "../pages/Orifjon";
+import Miraziz from "../pages/Miraziz"
 
 export const routes = createBrowserRouter([
   {
@@ -23,7 +24,12 @@ export const routes = createBrowserRouter([
         element:<Orifjon />,
       },
       
-      { path: "/salohiddin", element: <Salohiddin /> },
+      { path: "/salohiddin", 
+        element: <Salohiddin /> },
+        {
+          path:"/miraziz",
+          element:<Miraziz/>
+        }
     ],
   },
 ]);
