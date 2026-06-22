@@ -3,6 +3,7 @@ import RootLayout from "../layouts/RootLayout";
 import Asadbek from "../pages/Asadbek";
 import Odiljon from "../pages/Odiljon";
 import Salohiddin from "../pages/Salohiddin";
+import Orifjon from "../pages/Orifjon";
 
 export const routes = createBrowserRouter([
   {
@@ -17,6 +18,11 @@ export const routes = createBrowserRouter([
         path: "/odiljon",
         element: <Odiljon />,
       },
+      {
+        path:"/orifjon",
+        element:<Orifjon />,
+      },
+      
       { path: "/salohiddin", element: <Salohiddin /> },
     ],
   },
